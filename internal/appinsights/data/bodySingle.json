@@ -1,0 +1,17 @@
+{
+  "ver": 1,
+  "name": "Microsoft.ApplicationInsights.00000000000000000000000000000000.Event",
+  "time": "2025-03-17T13:53:50.950391Z",
+  "iKey": "00000000-0000-0000-0000-000000000000",
+  "data": {
+    "baseType": "EventData",
+    "baseData": {
+      "ver": 2,
+      "name": "Hello world 100",
+      "properties": {
+        "key1": "val1",
+        "key2": "val2"
+      }
+    }
+  }
+}

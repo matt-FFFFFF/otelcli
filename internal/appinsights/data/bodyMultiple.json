@@ -1,0 +1,130 @@
+{
+  "ver": 1,
+  "name": "Microsoft.ApplicationInsights.00000000000000000000000000000000.Event",
+  "time": "2025-03-17T13:48:50.950391Z",
+  "sampleRate": 100,
+  "seq": "",
+  "iKey": "00000000-0000-0000-0000-000000000000",
+  "tags": {
+    "ai.cloud.roleInstance": "computername",
+    "ai.device.id": "computername",
+    "ai.device.osVersion": "linux",
+    "ai.internal.sdkVersion": "go:0.4.4",
+    "ai.operation.id": "75212466-26cb-4a23-bbc9-a91177f3400f"
+  },
+  "data": {
+    "baseType": "EventData",
+    "baseData": {
+      "ver": 2,
+      "name": "Hello world 0",
+      "properties": {
+        "key1": "val1",
+        "key2": "val2"
+      }
+    }
+  }
+}
+{
+  "ver": 1,
+  "name": "Microsoft.ApplicationInsights.00000000000000000000000000000000.Event",
+  "time": "2025-03-17T13:48:50.950408Z",
+  "sampleRate": 100,
+  "seq": "",
+  "iKey": "00000000-0000-0000-0000-000000000000",
+  "tags": {
+    "ai.cloud.roleInstance": "computername",
+    "ai.device.id": "computername",
+    "ai.device.osVersion": "linux",
+    "ai.internal.sdkVersion": "go:0.4.4",
+    "ai.operation.id": "a0bd1ed4-cf25-47a1-8035-5cd091ef2f97"
+  },
+  "data": {
+    "baseType": "EventData",
+    "baseData": {
+      "ver": 2,
+      "name": "Hello world 1",
+      "properties": {
+        "key1": "val1",
+        "key2": "val2"
+      }
+    }
+  }
+}
+{
+  "ver": 1,
+  "name": "Microsoft.ApplicationInsights.00000000000000000000000000000000.Event",
+  "time": "2025-03-17T13:48:50.95041Z",
+  "sampleRate": 100,
+  "seq": "",
+  "iKey": "00000000-0000-0000-0000-000000000000",
+  "tags": {
+    "ai.cloud.roleInstance": "computername",
+    "ai.device.id": "computername",
+    "ai.device.osVersion": "linux",
+    "ai.internal.sdkVersion": "go:0.4.4",
+    "ai.operation.id": "cf22cc23-d97f-4ccc-8e22-cb3b069e81d4"
+  },
+  "data": {
+    "baseType": "EventData",
+    "baseData": {
+      "ver": 2,
+      "name": "Hello world 2",
+      "properties": {
+        "key1": "val1",
+        "key2": "val2"
+      }
+    }
+  }
+}
+{
+  "ver": 1,
+  "name": "Microsoft.ApplicationInsights.00000000000000000000000000000000.Event",
+  "time": "2025-03-17T13:48:50.950414Z",
+  "sampleRate": 100,
+  "seq": "",
+  "iKey": "00000000-0000-0000-0000-000000000000",
+  "tags": {
+    "ai.cloud.roleInstance": "computername",
+    "ai.device.id": "computername",
+    "ai.device.osVersion": "linux",
+    "ai.internal.sdkVersion": "go:0.4.4",
+    "ai.operation.id": "ff0aaddf-d206-42f4-9057-00902ad1a88d"
+  },
+  "data": {
+    "baseType": "EventData",
+    "baseData": {
+      "ver": 2,
+      "name": "Hello world 3",
+      "properties": {
+        "key1": "val1",
+        "key2": "val2"
+      }
+    }
+  }
+}
+{
+  "ver": 1,
+  "name": "Microsoft.ApplicationInsights.00000000000000000000000000000000.Event",
+  "time": "2025-03-17T13:48:50.950416Z",
+  "sampleRate": 100,
+  "seq": "",
+  "iKey": "00000000-0000-0000-0000-000000000000",
+  "tags": {
+    "ai.cloud.roleInstance": "computername",
+    "ai.device.id": "computername",
+    "ai.device.osVersion": "linux",
+    "ai.internal.sdkVersion": "go:0.4.4",
+    "ai.operation.id": "c023dc7d-3289-4483-a269-6bc193ee6617"
+  },
+  "data": {
+    "baseType": "EventData",
+    "baseData": {
+      "ver": 2,
+      "name": "Hello world 4",
+      "properties": {
+        "key1": "val1",
+        "key2": "val2"
+      }
+    }
+  }
+}

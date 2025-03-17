@@ -11,6 +11,8 @@ import (
 const (
 	// MaxBatchSize is the maximum number of telemetry items that can be sent in one call to the data collector.
 	MaxBatchSize = 4096
+	// MaxBatchIntervalSeconds is the maximum delay before sending queued telemetry.
+	MaxBatchIntervalSeconds = 2
 )
 
 type (
@@ -72,7 +74,7 @@ func NewClient(ctx context.Context, instrumentationKey, ingestionURL string) (Cl
 	telemetryConfig.MaxBatchSize = MaxBatchSize
 
 	// Configure the maximum delay before sending queued telemetry:
-	telemetryConfig.MaxBatchInterval = 2 * time.Second
+	telemetryConfig.MaxBatchInterval = time.Duration(MaxBatchIntervalSeconds) * time.Second
 
 	tc := appinsights.NewTelemetryClientFromConfig(telemetryConfig)
 	shut := ShutdownFunc(func() {
