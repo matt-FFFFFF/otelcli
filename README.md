@@ -1,5 +1,8 @@
 # Open Telemetry CLI
 
+Actually this is a CLI to send events to Azure Application Insights.
+How things change!
+
 ## Creation of kusto table and ingestion mapping
 
 ````kql
